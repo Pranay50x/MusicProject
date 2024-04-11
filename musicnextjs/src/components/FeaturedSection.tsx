@@ -23,7 +23,7 @@ function FeaturedSection() {
             <p className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl'>Learn with the Best</p>
        </div>
        <div className='mt-10'>
-            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center flex'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center '>
                 {featuredCourses.map((course:Course) => (
                     <div key={course.id} className="flex justify-centre">
                             <BackgroundGradient
