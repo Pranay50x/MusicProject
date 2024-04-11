@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 
+import FeaturedSection from "@/components/FeaturedSection";
 import HeroSection from "@/components/HeroSection";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
     bg-grid-white/[0.02]">
     
     <HeroSection/> 
+    <FeaturedSection/>
     </main>
   );
 }

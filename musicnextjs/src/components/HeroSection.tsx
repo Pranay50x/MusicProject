@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link'
 import React from 'react'
-import { Spotlight } from './ui/spotlight'
+import { Spotlight } from './ui/Spotlight'
 import { Button } from './ui/moving-border'
 
 function HeroSection() {
