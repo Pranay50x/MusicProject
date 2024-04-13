@@ -1,5 +1,8 @@
 import Link from 'next/link'
 import React from 'react'
+import { HoverEffect } from './ui/card-hover-effect';
+import { title } from 'process';
+import { HoveredLink } from './ui/navbar-menu';
 
 const featuredWebinars = [
     {
@@ -58,7 +61,16 @@ function Webinars() {
                 <p className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl'>Enhance your Music Journey</p>
             </div>
             <div className='mt-10'>
+                <HoverEffect items={featuredWebinars.map(webinar => (
+                    {
+                        title: webinar.title,
+                        link: '/',
+                        description: webinar.description
+                    } 
 
+                ))}>
+
+                </HoverEffect>
             </div>
             <div className='mt-10 text-center'>
                 <Link href={'/'} className='px-3 py-2 rounded-border border-neutral-600 text-neutral-700 bg-white hover:bg-grey-100 transition duration-200 '>
