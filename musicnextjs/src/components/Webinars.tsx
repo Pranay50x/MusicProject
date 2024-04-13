@@ -1,6 +1,53 @@
 import Link from 'next/link'
 import React from 'react'
 
+const featuredWebinars = [
+    {
+      title: 'Understanding Music Theory',
+      description:
+        'Dive deep into the fundamentals of music theory and enhance your musical skills.',
+      slug: 'understanding-music-theory',
+      isFeatured: true,
+    },
+    {
+      title: 'The Art of Songwriting',
+      description:
+        'Learn the craft of songwriting from experienced musicians and songwriters.',
+      slug: 'the-art-of-songwriting',
+      isFeatured: true,
+    },
+    {
+      title: 'Mastering Your Instrument',
+      description:
+        'Advanced techniques to master your musical instrument of choice.',
+      slug: 'mastering-your-instrument',
+      isFeatured: true,
+    },
+    {
+      title: 'Music Production Essentials',
+      description:
+        'Get started with music production with this comprehensive overview.',
+      slug: 'music-production-essentials',
+      isFeatured: true,
+    },
+    // Added two more webinars
+    {
+      title: 'Live Performance Techniques',
+      description:
+        'Enhance your live performance skills with expert tips and strategies.',
+      slug: 'live-performance-techniques',
+      isFeatured: true,
+    },
+    {
+      title: 'Digital Music Marketing',
+      description:
+        'Learn how to promote your music effectively in the digital age.',
+      slug: 'digital-music-marketing',
+      isFeatured: true,
+    },
+  ];
+
+
 function Webinars() {
   return (
     <div className='p-12 bg-gray-900'>
@@ -10,7 +57,9 @@ function Webinars() {
                 <h2 className='text-base font-semibold text-teal-300 tracking-wide uppercase'>Featured Webinars</h2>
                 <p className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl'>Enhance your Music Journey</p>
             </div>
-            <div className='mt-10'>ga</div>
+            <div className='mt-10'>
+
+            </div>
             <div className='mt-10 text-center'>
                 <Link href={'/'} className='px-3 py-2 rounded-border border-neutral-600 text-neutral-700 bg-white hover:bg-grey-100 transition duration-200 '>
                     View all
