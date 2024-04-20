@@ -73,7 +73,8 @@ function Webinars() {
                 </HoverEffect>
             </div>
             <div className='mt-10 text-center'>
-                <Link href={'/'} className='px-3 py-2 rounded-border border-neutral-600 text-neutral-700 bg-white hover:bg-grey-100 transition duration-200 '>
+                <Link href={'/'}className='px-5 py-4 rounded-border border-neutral-600 text-neutral-700 bg-white hover:bg-grey-100 transition duration-200 mt-3' 
+                                style={{borderTopLeftRadius: '50px', borderTopRightRadius: '50px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px'}}>
                     View all
                 </Link>
             </div>
