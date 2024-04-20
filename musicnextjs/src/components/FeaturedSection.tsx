@@ -33,7 +33,8 @@ function FeaturedSection() {
                                 <p className='text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200'>{course.title}</p>
                                 <p className='text-sm text-neutral-600 dark:text-neutral-400 flex-grow'>{course.description}</p>
                                 <Link href={`/courses/${course.slug}`}
-                                className='px-3 py-2 rounded-border border-neutral-600 text-neutral-700 bg-white hover:bg-grey-100 transition duration-200 '>
+                                className='px-5 py-4 rounded-border border-neutral-600 text-neutral-700 bg-white hover:bg-grey-100 transition duration-200 mt-3' 
+                                style={{borderTopLeftRadius: '50px', borderTopRightRadius: '50px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px'}}>
                                     Learn More
                                 </Link>
                                 </div>
@@ -47,7 +48,8 @@ function FeaturedSection() {
        </div>
        <div className='mt-20 text-center'>
                 <Link href={'/courses'}
-                 className='px-4 py-2 rounded-border border-neutral-600 text-neutral-700 bg-white hover:bg-grey-100 transition duration-200  '>
+                 className='px-6 py-5 rounded-border border-neutral-600 text-neutral-700 bg-white hover:bg-grey-100 transition duration-200'
+                 style={{borderTopLeftRadius: '69px', borderTopRightRadius: '69px',borderBottomColor: 'beige', borderBottomLeftRadius: '69px', borderBottomRightRadius: '69px'}}>
                     View all Courses
                 </Link>
        </div>
