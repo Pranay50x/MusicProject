@@ -6,6 +6,7 @@ import MovingCards from "@/components/MovingCards";
 import Webinars from "@/components/Webinars";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import { Metadata } from "next";
+import Instructor from "@/components/Instructor";
 
 export const metadata: Metadata ={
   title: 'Music Project'
@@ -19,6 +20,7 @@ export default function Home() {
     <WhyChooseUs /> 
     <MovingCards />
     <Webinars />
+    <Instructor/> 
     </main>
   );
 }
