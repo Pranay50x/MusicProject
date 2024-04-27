@@ -7,6 +7,7 @@ import Webinars from "@/components/Webinars";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import { Metadata } from "next";
 import Instructor from "@/components/Instructor";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata ={
   title: 'Music Project'
@@ -20,7 +21,8 @@ export default function Home() {
     <WhyChooseUs /> 
     <MovingCards />
     <Webinars />
-    <Instructor/> 
+    <Instructor/>
+    <Footer /> 
     </main>
   );
 }
